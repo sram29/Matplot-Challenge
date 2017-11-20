@@ -3,8 +3,16 @@
 ```python
 Observed Trend 1: The total rides, drivers, and fares are the highest in the Urban areas
 Observed Trend 2: The average fare is pretty close in the Suburban and Rural areas
-Observed Trend 3:
+Observed Trend 3: The % of drivers in the Suburban areas are increasing which would eventually lead to the increase in the total number rides and fares
 ```
+
+
+      File "<ipython-input-1-804d171f9a9d>", line 1
+        Observed Trend 1: The total rides, drivers, and fares are the highest in the Urban areas
+                     ^
+    SyntaxError: invalid syntax
+
+
 
 
 ```python
@@ -497,8 +505,6 @@ sort_data.head()
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>level_0</th>
-      <th>index</th>
       <th>city</th>
       <th>driver_count</th>
       <th>FareTotal</th>
@@ -509,8 +515,6 @@ sort_data.head()
   <tbody>
     <tr>
       <th>0</th>
-      <td>0</td>
-      <td>0</td>
       <td>Alvarezhaven</td>
       <td>21</td>
       <td>741.79</td>
@@ -519,8 +523,6 @@ sort_data.head()
     </tr>
     <tr>
       <th>1</th>
-      <td>1</td>
-      <td>1</td>
       <td>Alyssaberg</td>
       <td>67</td>
       <td>535.85</td>
@@ -529,8 +531,6 @@ sort_data.head()
     </tr>
     <tr>
       <th>2</th>
-      <td>2</td>
-      <td>2</td>
       <td>Antoniomouth</td>
       <td>21</td>
       <td>519.75</td>
@@ -539,8 +539,6 @@ sort_data.head()
     </tr>
     <tr>
       <th>3</th>
-      <td>3</td>
-      <td>3</td>
       <td>Aprilchester</td>
       <td>49</td>
       <td>417.65</td>
@@ -549,8 +547,6 @@ sort_data.head()
     </tr>
     <tr>
       <th>4</th>
-      <td>4</td>
-      <td>4</td>
       <td>Arnoldview</td>
       <td>41</td>
       <td>778.30</td>
@@ -572,9 +568,9 @@ city_fare_agg_pie1
 
 
 
-    sum        40078.34000
-    count       1625.00000
-    Average     1623.86339
+    FareTotal      40078.34000
+    Ridecount       1625.00000
+    AverageFare     1623.86339
     dtype: float64
 
 
@@ -753,9 +749,9 @@ city_fare_agg_pie2
 
 
 
-    sum        20335.690000
-    count        657.000000
-    Average     1300.433953
+    FareTotal      20335.690000
+    Ridecount        657.000000
+    AverageFare     1300.433953
     dtype: float64
 
 
@@ -933,9 +929,9 @@ city_fare_agg_pie3
 
 
 
-    sum        20335.690000
-    count        657.000000
-    Average     1300.433953
+    FareTotal      20335.690000
+    Ridecount        657.000000
+    AverageFare     1300.433953
     dtype: float64
 
 
